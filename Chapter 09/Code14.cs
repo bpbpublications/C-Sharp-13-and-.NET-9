@@ -1,0 +1,1 @@
+services.AddDbContext<MyContext>(options => options.UseMySql(Configuration.GetConnectionString("DefaultConnection"), new MySqlServerVersion(new Version(8, 0, 21))));

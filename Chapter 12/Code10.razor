@@ -1,0 +1,16 @@
+@page "/customer"
+@model MyRazorPagesApp.Pages.CustomerModel
+
+<form method="post">
+    <label asp-for="Customer.Name">Name:</label>
+    <input asp-for="Customer.Name" />
+    <br />
+    <label asp-for="Customer.Age">Age:</label>
+    <input asp-for="Customer.Age" type="number" />
+    <br />
+    <label asp-for="Customer.AppointmentDate">Appointment Date:</label>
+    <input asp-for="Customer.AppointmentDate" type="date" />
+    <br />
+    <button type="submit">Register</button>
+</form>
+

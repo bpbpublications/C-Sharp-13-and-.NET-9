@@ -1,0 +1,15 @@
+@page "/server-mode-example"
+@rendermode InteractiveServer
+
+<h3>Interactive Server Mode Example</h3>
+<button @onclick="UpdateMessage">Click Me</button>
+<p>@message</p>
+
+@code {
+    private string message = "Initial message";
+
+    private void UpdateMessage()
+    {
+        message = "Updated on the server!";
+    }
+}

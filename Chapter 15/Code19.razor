@@ -1,0 +1,12 @@
+@code {
+    private string message = "Hello from Blazor!";
+}
+
+<button @onclick="InvokeJavaScriptFunction">Invoke JavaScript Function</button>
+
+@code {
+    private async Task InvokeJavaScriptFunction()
+    {
+        await JSRuntime.InvokeVoidAsync("myJavaScriptFunction", message);
+    }
+}

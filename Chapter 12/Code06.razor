@@ -1,0 +1,23 @@
+@page "/contact"
+@model MyRazorPagesApp.Pages.ContactModel
+
+<form method="post">
+    <input type="text" asp-for="Name" />
+    <br />
+    <span asp-validation-for="Name"></span>
+    <br /><br />
+    <input type="email" asp-for="Email" />
+    <br />
+    <span asp-validation-for="Email"></span>
+    <br /><br />
+    <textarea asp-for="Message"></textarea>
+    <br />
+    <span asp-validation-for="Message"></span>
+    <br /><br /><br />
+    <button type="submit">Submit</button>
+</form>
+
+@if (Model.MessageSent)
+{
+    <p>Your message has been sent successfully!</p>
+}

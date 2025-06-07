@@ -1,0 +1,34 @@
+@{
+    ViewBag.Title = "Patient Details";
+}
+
+<h2>Patient Details</h2>
+<div>
+    <h3>Personal Information</h3>
+    <p><strong>Name:</strong> @Model.Name</p>
+    <p><strong>Age:</strong> @Model.Age</p>
+    <p><strong>Gender:</strong> @Model.Gender</p>
+</div>
+<div>
+    <h3>Cardiac Records</h3>
+    @if (Model.CardiacRecords != null && Model.CardiacRecords.Any())
+    {
+        <table>
+            <tr>
+                <th>Diagnosis</th>
+                <th>Treatment Plan</th>
+            </tr>
+            @foreach (var record in Model.CardiacRecords)
+            {
+                <tr>
+                    <td>@record.Diagnosis</td>
+                    <td>@record.TreatmentPlan</td>
+                </tr>
+            }
+        </table>
+    }
+    else
+    {
+        <p>No cardiac records were found for this patient.</p>
+    }
+</div>

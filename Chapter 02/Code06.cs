@@ -1,0 +1,1 @@
+int nextMonth = DateTime.Now.Month == 12 ? 1 : DateTime.Now.Month + 1;

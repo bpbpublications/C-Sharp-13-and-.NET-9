@@ -1,0 +1,7 @@
+@code
+ { YourEntity  newEntity  = 
+new YourEntity
+{ /* initialize properties */
+};
+dbContext.YourEntities.Add(newEntity);
+dbContext.SaveChanges(); }

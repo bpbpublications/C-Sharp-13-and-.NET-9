@@ -1,0 +1,5 @@
+@code
+ { YourEntity  entityToDelete  =  dbContext . YourEntities . Find ( id )
+;
+dbContext.YourEntities.Remove(entityToDelete);
+dbContext.SaveChanges(); }

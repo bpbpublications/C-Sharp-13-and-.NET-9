@@ -1,0 +1,1 @@
+protected override void OnConfiguring(DbContextOptionsBuilder options) => options.UseNpgsql("Host=my_host;Database=my_db;Username=my_user;Password=my_pw");

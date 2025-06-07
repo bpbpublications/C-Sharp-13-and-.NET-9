@@ -1,0 +1,54 @@
+@page "/editpatient/{Id:int}"
+@inject PatientService PatientService
+@inject NavigationManager NavigationManager
+
+<h3>Edit Patient</h3>
+
+@if (patient == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <EditForm Model="@patient" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <div class="form-group">
+            <label for="Name">Name:</label>
+            <InputText id="Name" class="form-control" @bind-Value="patient.Name" />
+        </div>
+        <div class="form-group">
+            <label for="Age">Age:</label>
+            <InputNumber id="Age" class="form-control" @bind-Value="patient.Age" />
+        </div>
+        <div class="form-group">
+            <label for="Condition">Condition:</label>
+            <InputText id="Condition" class="form-control" @bind-Value="patient.Condition" />
+        </div>
+        <button type="submit" class="btn btn-success">Update</button>
+        <button class="btn btn-secondary" @onclick="Cancel">Cancel</button>
+    </EditForm>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private Patient patient;
+
+    protected override async Task OnInitializedAsync()
+    {
+        patient = await PatientService.GetPatientById(Id);
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        await PatientService.UpdatePatient(patient);
+        NavigationManager.NavigateTo("/patients");
+    }
+
+    private void Cancel()
+    {
+        NavigationManager.NavigateTo("/patients");
+    }
+}

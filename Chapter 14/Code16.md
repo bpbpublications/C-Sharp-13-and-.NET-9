@@ -1,0 +1,1 @@
+Install-Package GraphQL Install-Package GraphQL.Server.Ui.Playground 

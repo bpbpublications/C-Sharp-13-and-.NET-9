@@ -1,0 +1,20 @@
+@model YourAppNamespace.Models.Book
+
+@{
+    ViewBag.Title = "Book Details";
+}
+
+<h2>Book Details</h2>
+<div>
+    <h3>@Model.Title</h3>
+    <p><strong>Author:</strong> @Model.Author</p>
+    <p><strong>ISBN:</strong> @Model.ISBN</p>
+    <p><strong>Genre:</strong> @Model.Genre</p>
+    <p><strong>Published:</strong> @Model.PublishDate.ToString("dd MMM yyyy")</p>
+    <p><strong>Description:</strong> @Model.Description</p>
+    <p><strong>Price:</strong> $@Model.Price</p>
+    <p><strong>In Stock:</strong> @Model.StockQuantity</p>
+    <p><strong>Bestseller:</strong> @(Model.IsBestseller() ? "Yes" : "No")</p>
+</div>
+<!-- Add a link to go back to the list or perform other actions -->
+<p><a href="@Url.Action("Index", "Books")">Back to List</a></p>

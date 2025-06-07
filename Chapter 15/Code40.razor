@@ -1,0 +1,11 @@
+@code {
+    [Inject]
+    NavigationManager NavigationManager { get; set; }
+
+    private void NavigateToPage()
+    {
+        NavigationManager.NavigateTo("/some/page");
+    }
+}
+
+<button @onclick="NavigateToPage">Go to Another Page</button>

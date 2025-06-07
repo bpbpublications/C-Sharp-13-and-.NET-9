@@ -1,0 +1,9 @@
+@model IEnumerable<Purchase>
+
+<h3>Delivery Addresses</h3>
+
+@foreach (var purchase in Model)
+{
+    <p>@purchase.DeliveryAddress.Street, @purchase.DeliveryAddress.City</p>
+}
+

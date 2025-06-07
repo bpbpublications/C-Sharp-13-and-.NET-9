@@ -1,0 +1,22 @@
+@page "/products"
+@model ProductsModel
+
+<h2>Product List</h2>
+
+@if (Model.Products.Any())
+{
+    <ul>
+        @foreach (var product in Model.Products)
+        {
+            <li>@product.Name - @product.Price</li>
+        }
+    </ul>
+}
+else
+{
+    <p>No products available.</p>
+}
+
+<form method="post">
+    <input type="submit" value="Reload Products" />
+</form>

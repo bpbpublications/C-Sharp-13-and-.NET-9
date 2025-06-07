@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter09\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B37F4D-2E54-4E6E-9284-CCE02F293908}|chapter09.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter09\\code02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B37F4D-2E54-4E6E-9284-CCE02F293908}|chapter09.csproj|solutionrelative:code02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B37F4D-2E54-4E6E-9284-CCE02F293908}|chapter09.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter09\\code01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B37F4D-2E54-4E6E-9284-CCE02F293908}|chapter09.csproj|solutionrelative:code01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Code02.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter09\\Code02.cs",
+              "RelativeDocumentMoniker": "Code02.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter09\\Code02.cs",
+              "RelativeToolTip": "Code02.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:59:03.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Code01.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter09\\Code01.cs",
+              "RelativeDocumentMoniker": "Code01.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter09\\Code01.cs",
+              "RelativeToolTip": "Code01.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:58:58.522Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

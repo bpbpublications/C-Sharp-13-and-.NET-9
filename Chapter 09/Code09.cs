@@ -1,0 +1,1 @@
+dotnet ef migrations  add  RemoveBeansAndRicesAddFruitsAndEggs  dotnet  ef  database  update 

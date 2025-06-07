@@ -1,0 +1,64 @@
+@page "/patients"
+@inject PatientService PatientService
+@inject NavigationManager NavigationManager
+
+<h3>Patients</h3>
+
+@if (patients == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Condition</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var patient in patients)
+            {
+                <tr>
+                    <td>@patient.Name</td>
+                    <td>@patient.Age</td>
+                    <td>@patient.Condition</td>
+                    <td>
+                        <button class="btn btn-primary" @onclick="() => EditPatient(patient.Id)">Edit</button>
+                        <button class="btn btn-danger" @onclick="() => DeletePatient(patient.Id)">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Patient> patients;
+
+    protected override async Task OnInitializedAsync()
+    {
+        patients = PatientService.GetAllPatients();
+    }
+
+    private void EditPatient(int id)
+    {
+        // Navigate to the edit page with the patient ID
+        NavigationManager.NavigateTo($"/editpatient/{id}");
+    }
+
+    private void DeletePatient(int id)
+    {
+        // Show a confirmation dialog before deletion
+        var confirmed = Confirm($"Confirm that you want to delete the patient with ID {id}?");
+        if (confirmed)
+        {
+            PatientService.DeletePatient(id);
+            patients = PatientService.GetAllPatients(); // Refresh the list
+            StateHasChanged(); // Notify the component to re-render
+        }
+    }
+}

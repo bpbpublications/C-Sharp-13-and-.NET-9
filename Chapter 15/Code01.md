@@ -1,0 +1,1 @@
+dotnet new - i Microsoft.AspNetCore.Blazor.Templates

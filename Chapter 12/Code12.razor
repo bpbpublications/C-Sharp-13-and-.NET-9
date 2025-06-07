@@ -1,0 +1,34 @@
+@page "/registration"
+@model MyRazorPagesApp.Pages.RegistrationModel
+
+<form method="post">
+    <div>
+        <label asp-for="User.FullName">Full Name:</label>
+        <br />
+        <input asp-for="User.FullName" />
+        <br />
+        <span asp-validation-for="User.FullName"></span>
+    </div>
+    <div>
+        <label asp-for="User.Email">Email:</label>
+        <br />
+        <input asp-for="User.Email" />
+        <br />
+        <span asp-validation-for="User.Email"></span>
+    </div>
+    <div>
+        <label asp-for="User.Password">Password:</label>
+        <br />
+        <input asp-for="User.Password" />
+        <br />
+        <span asp-validation-for="User.Password"></span>
+    </div>
+    <div>
+        <label asp-for="User.DateOfBirth">Date of Birth:</label>
+        <input asp-for="User.DateOfBirth" type="date" />
+        <span asp-validation-for="User.DateOfBirth"></span>
+    </div>
+    <br />
+    <button type="submit">Register</button>
+</form>
+

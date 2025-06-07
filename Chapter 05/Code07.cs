@@ -1,0 +1,1 @@
+var person1 = new Person("John", 25);

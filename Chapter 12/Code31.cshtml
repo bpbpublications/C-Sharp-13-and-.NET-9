@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"] - Theater Ticket Seller</title>
+    <!-- Add links to your CSS files and other head elements here -->
+</head>
+<body>
+    <header>
+        <h1>Main Movie of the Day</h1>
+        <!-- Placeholder for the main movie -->
+        @RenderSection("MainMovie", required: false)
+    </header>
+    <div class="content">
+        <h2>Available Movies for Tickets</h2>
+        @RenderBody()
+    </div>
+    <footer>
+        <p>Copyright © @DateTime.Now.Year - Theater Ticket Seller</p>
+    </footer>
+</body>
+</html>

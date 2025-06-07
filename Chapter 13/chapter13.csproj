@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Code06.razor" />
+    <Compile Include="Code11.razor" />
+    <Compile Include="Code15.razor" />
+    <Compile Include="Code21.razor" />
+    <Compile Include="Code22.razor" />
+    <Compile Include="Code23.razor" />
+    <Compile Include="Code24.razor" />
+    <Compile Include="Code25.razor" />
+    <Compile Include="Code26.md" />
+    <Compile Include="Code27.md" />
+    <Compile Include="Code28.md" />
+    <Compile Include="Code29.md" />
+    <Compile Include="Code34.md" />
+    <Compile Include="Code35.md" />
+    <Compile Include="Code36.md" />
+    <Compile Include="Code37.md" />
+    <Compile Include="Code38.md" />
+    <Compile Include="Code45.md" />
+    <Compile Include="Code53.md" />
+    <Compile Include="Code54.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="3.7.0" />
+    <PackageReference Include="xunit.extensibility.core" Version="2.9.3" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,1 @@
+string lengthOfValue = nullableInt?.ToString().Length;

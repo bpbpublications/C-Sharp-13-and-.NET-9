@@ -1,0 +1,15 @@
+@page "/hybrid-example"
+@rendermode InteractiveAuto
+
+<h3>Hybrid Prerendering Example</h3>
+<button @onclick="UpdateMessage">Click Me</button>
+<p>@message</p>
+
+@code {
+    private string message = "Initial static content";
+
+    private void UpdateMessage()
+    {
+        message = "Now fully interactive!";
+    }
+}

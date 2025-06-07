@@ -1,0 +1,82 @@
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+@{
+    ViewData["Title"] = "Emergency Room";
+}
+
+@model EmergencyViewModel
+<form id="emergencyForm">
+    <!-- Name input -->
+    <label for="name">Name:</label><br />
+    <input type="text" id="name" name="Name" required /><br /><br />
+    
+    <!-- Last Name input -->
+    <label for="lastName">Last Name:</label><br />
+    <input type="text" id="lastName" name="LastName" required /><br /><br />
+    
+    <!-- Address input -->
+    <label for="address">Address:</label><br />
+    <input type="text" id="address" name="Address" required /><br /><br />
+    
+    <!-- City input -->
+    <label for="city">City:</label><br />
+    <input type="text" id="city" name="City" required /><br /><br />
+    
+    <!-- Profession input -->
+    <label for="profession">Profession:</label><br />
+    <input type="text" id="profession" name="Profession" required /><br /><br />
+    
+    <!-- Date of Birth input -->
+    <label for="dob">Date of Birth:</label><br />
+    <input type="date" id="dob" name="DateOfBirth" required /><br />
+    <div class="alert alert-danger col-md-4" id="dobMessage"></div><br />
+    
+    <!-- Guardian Information section -->
+    <div id="guardianInfo" style="display:none;">
+        <!-- Guardian Name input -->
+        <label for="guardianName">Guardian Name:</label><br />
+        <input type="text" id="guardianName" name="GuardianName" /><br /><br />
+        
+        <!-- Guardian Phone Number input -->
+        <label for="guardianPhone">Guardian Phone Number:</label><br />
+        <input type="tel" id="guardianPhone" name="GuardianPhoneNumber" /><br /><br />
+    </div>
+    
+    <!-- Submit button -->
+    <button id="submit" type="submit">Submit</button>
+</form>
+
+<script>
+$(document).ready(function() {
+    // Hide the Date of Birth error message and turn off the Submit button
+    $('#dobMessage').hide();
+    $('#submit').prop('disabled', true);
+
+    // Event handler for Date of Birth input change
+    $('#dob').change(function() {
+        var dob = new Date($(this).val());
+        var today = new Date();
+        var age = today.getFullYear() - dob.getFullYear();
+
+        // Hide the Date of Birth error message and enable the Submit button
+        $('#dobMessage').hide();
+        $('#submit').prop('disabled', false);
+
+        // Validate the Date of Birth
+        if (dob > today || dob < new Date('1900-01-01')) {
+            $('#dobMessage').text('Invalid Date of Birth').show();
+            $('#submit').prop('disabled', true);
+        } else if (age < 18) {
+            // Show the Guardian Information section and make the Guardian Name and Guardian Phone Number inputs required
+            $('#guardianInfo').show();
+            $('#guardianName').prop('required', true);
+            $('#guardianPhone').prop('required', true);
+        } else {
+            // Hide the Guardian Information section
+            $('#guardianInfo').hide();
+            // Remove the required attribute from the Guardian Name and Guardian Phone Number inputs
+            $('#guardianName').removeProp('required');
+            $('#guardianPhone').removeProp('required');
+        }
+    });
+});
+</script>

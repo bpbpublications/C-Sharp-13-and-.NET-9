@@ -1,0 +1,1 @@
+app.MapGet("/css/pages.css", () => MyCode.GetCssPage()).ShortCircuit(200);

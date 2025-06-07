@@ -1,0 +1,5 @@
+@code
+ { YourEntity  entityToUpdate  =  dbContext . YourEntities . Find ( id )
+;
+entityToUpdate.PropertyToUpdate = newValue;
+dbContext.SaveChanges(); }

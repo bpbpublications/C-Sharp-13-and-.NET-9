@@ -1,0 +1,1 @@
+protected override void OnConfiguring(DbContextOptionsBuilder options) => options.UseSqlServer(@"Server=myServerAddress;Database=myDataBase;User Id=myUsername;Password=myPassword;");

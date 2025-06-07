@@ -1,0 +1,606 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code26.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code26.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code27.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code27.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code28.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code28.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code29.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code29.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code30.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code30.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code31.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code31.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code32.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code32.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code33.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code33.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code34.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code34.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code35.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code35.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code36.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code36.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code38.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code38.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code39.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code39.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code41.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code41.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code42.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code42.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code54.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code54.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code53.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code53.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code51.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code51.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code48.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code48.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code47.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code47.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code45.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code45.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code44.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code44.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code46.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code46.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code49.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code49.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code55.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code55.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code56.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code56.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code57.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code57.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code58.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code58.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code59.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code59.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code19.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code19.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code24.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code24.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code23.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code23.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code16.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code16.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|c:\\github\\bpbonline-book2049-2\\source-code-by-chapter\\chapter04\\code15.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1DFFA-CF02-4594-804C-60EAA9CFCE6C}|chapter04.csproj|solutionrelative:code15.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Code26.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code26.cs",
+              "RelativeDocumentMoniker": "Code26.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code26.cs",
+              "RelativeToolTip": "Code26.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:54:36.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Code27.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code27.cs",
+              "RelativeDocumentMoniker": "Code27.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code27.cs",
+              "RelativeToolTip": "Code27.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:54:34.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Code28.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code28.cs",
+              "RelativeDocumentMoniker": "Code28.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code28.cs",
+              "RelativeToolTip": "Code28.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:54:33.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Code29.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code29.cs",
+              "RelativeDocumentMoniker": "Code29.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code29.cs",
+              "RelativeToolTip": "Code29.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:54:32.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Code30.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code30.cs",
+              "RelativeDocumentMoniker": "Code30.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code30.cs",
+              "RelativeToolTip": "Code30.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:54:27.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Code31.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code31.cs",
+              "RelativeDocumentMoniker": "Code31.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code31.cs",
+              "RelativeToolTip": "Code31.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:54:27.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Code32.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code32.cs",
+              "RelativeDocumentMoniker": "Code32.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code32.cs",
+              "RelativeToolTip": "Code32.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:53:53.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Code33.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code33.cs",
+              "RelativeDocumentMoniker": "Code33.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code33.cs",
+              "RelativeToolTip": "Code33.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:53:52.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Code34.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code34.cs",
+              "RelativeDocumentMoniker": "Code34.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code34.cs",
+              "RelativeToolTip": "Code34.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:53:51.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Code35.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code35.cs",
+              "RelativeDocumentMoniker": "Code35.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code35.cs",
+              "RelativeToolTip": "Code35.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:53:50.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Code36.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code36.cs",
+              "RelativeDocumentMoniker": "Code36.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code36.cs",
+              "RelativeToolTip": "Code36.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:53:49.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Code38.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code38.cs",
+              "RelativeDocumentMoniker": "Code38.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code38.cs",
+              "RelativeToolTip": "Code38.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:53:47.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Code39.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code39.cs",
+              "RelativeDocumentMoniker": "Code39.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code39.cs",
+              "RelativeToolTip": "Code39.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:53:46.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Code41.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code41.cs",
+              "RelativeDocumentMoniker": "Code41.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code41.cs",
+              "RelativeToolTip": "Code41.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:53:43.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Code42.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code42.cs",
+              "RelativeDocumentMoniker": "Code42.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code42.cs",
+              "RelativeToolTip": "Code42.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:53:42.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Code47.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code47.cs",
+              "RelativeDocumentMoniker": "Code47.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code47.cs",
+              "RelativeToolTip": "Code47.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:53:38.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Code44.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code44.cs",
+              "RelativeDocumentMoniker": "Code44.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code44.cs",
+              "RelativeToolTip": "Code44.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:52:10.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Code45.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code45.cs",
+              "RelativeDocumentMoniker": "Code45.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code45.cs",
+              "RelativeToolTip": "Code45.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:52:09.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Code46.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code46.cs",
+              "RelativeDocumentMoniker": "Code46.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code46.cs",
+              "RelativeToolTip": "Code46.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:52:08.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Code48.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code48.cs",
+              "RelativeDocumentMoniker": "Code48.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code48.cs",
+              "RelativeToolTip": "Code48.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:52:05.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Code49.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code49.cs",
+              "RelativeDocumentMoniker": "Code49.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code49.cs",
+              "RelativeToolTip": "Code49.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:52:03.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Code51.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code51.cs",
+              "RelativeDocumentMoniker": "Code51.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code51.cs",
+              "RelativeToolTip": "Code51.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:51:40.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Code53.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code53.cs",
+              "RelativeDocumentMoniker": "Code53.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code53.cs",
+              "RelativeToolTip": "Code53.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:51:38.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Code54.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code54.cs",
+              "RelativeDocumentMoniker": "Code54.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code54.cs",
+              "RelativeToolTip": "Code54.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:51:37.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Code55.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code55.cs",
+              "RelativeDocumentMoniker": "Code55.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code55.cs",
+              "RelativeToolTip": "Code55.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:51:21.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Code56.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code56.cs",
+              "RelativeDocumentMoniker": "Code56.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code56.cs",
+              "RelativeToolTip": "Code56.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:51:19.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Code57.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code57.cs",
+              "RelativeDocumentMoniker": "Code57.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code57.cs",
+              "RelativeToolTip": "Code57.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:51:18.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Code58.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code58.cs",
+              "RelativeDocumentMoniker": "Code58.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code58.cs",
+              "RelativeToolTip": "Code58.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:51:17.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Code59.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code59.cs",
+              "RelativeDocumentMoniker": "Code59.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code59.cs",
+              "RelativeToolTip": "Code59.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:51:14.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Code19.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code19.cs",
+              "RelativeDocumentMoniker": "Code19.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code19.cs",
+              "RelativeToolTip": "Code19.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:50:47.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Code24.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code24.cs",
+              "RelativeDocumentMoniker": "Code24.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code24.cs",
+              "RelativeToolTip": "Code24.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:50:44.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Code23.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code23.cs",
+              "RelativeDocumentMoniker": "Code23.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code23.cs",
+              "RelativeToolTip": "Code23.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:50:42.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Code16.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code16.cs",
+              "RelativeDocumentMoniker": "Code16.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code16.cs",
+              "RelativeToolTip": "Code16.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:49:47.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Code15.cs",
+              "DocumentMoniker": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code15.cs",
+              "RelativeDocumentMoniker": "Code15.cs",
+              "ToolTip": "C:\\github\\BPBOnline-Book2049-2\\source-code-by-chapter\\Chapter04\\Code15.cs",
+              "RelativeToolTip": "Code15.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:49:45.801Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

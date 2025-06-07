@@ -1,0 +1,1 @@
+Install-Package Microsoft.VisualStudio.Web.CodeGeneration.Design

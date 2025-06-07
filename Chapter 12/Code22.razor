@@ -1,0 +1,33 @@
+@* Layouts: Using a shared layout for a consistent look and feel *@
+@layout "_Layout"
+
+@* Code Blocks: Declaring a variable and a simple logic *@
+@{
+    var productList = new List<string>
+    {
+        "Apple",
+        "Banana",
+        "Cherry"
+    };
+}
+
+@* Main content area *@
+<div>
+    <h2>Our Products</h2>
+    @* Code Expressions: Looping through the products and displaying them *@
+    <ul>
+        @foreach (var product in productList)
+        {
+            <li>@product</li> @* Displaying each product in the list *@
+        }
+    </ul>
+
+    @* Partial Views: Including a partial view for a common component, like a footer *@
+    @Html.Partial("_Footer")
+
+    @* Tag Helpers: Using a form tag helper for a simple search form *@
+    <form asp-action="Search" method="post">
+        <input asp-for="SearchTerm" />
+        <button type="submit">Search</button>
+    </form>
+</div>

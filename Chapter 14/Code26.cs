@@ -1,0 +1,1 @@
+context.Response.Headers.Add("Content-Security-Policy", "default-src 'self'; script-src 'self' https://cdn.example.com; style-src 'self'; img-src 'self'");

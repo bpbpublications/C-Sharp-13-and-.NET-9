@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Code04.razor" />
+    <Compile Include="Code05.razor" />
+    <Compile Include="Code06.razor" />
+    <Compile Include="Code07.razor" />
+    <Compile Include="Code09.razor" />
+    <Compile Include="Code10.razor" />
+    <Compile Include="Code11.razor" />
+    <Compile Include="Code13.razor" />
+    <Compile Include="Code15.razor" />
+    <Compile Include="Code17.razor" />
+    <Compile Include="Code19.razor" />
+    <Compile Include="Code20.razor" />
+    <Compile Include="Code21.razor" />
+    <Compile Include="Code24.razor" />
+    <Compile Include="Code25.razor" />
+    <Compile Include="Code27.md" />
+    <Compile Include="Code28.md" />
+    <Compile Include="Code29.md" />
+    <Compile Include="Code33.razor" />
+    <Compile Include="Code34.razor" />
+    <Compile Include="Code35.razor" />
+    <Compile Include="Code36.razor" />
+    <Compile Include="Code37.razor" />
+    <Compile Include="Code38.razor" />
+    <Compile Include="Code39.razor" />
+    <Compile Include="Code40.razor" />
+    <Compile Include="Code41.html" />
+    <Compile Include="Code43.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="2.2.0" />
+    <PackageReference Include="xunit.extensibility.core" Version="2.9.3" />
+  </ItemGroup>
+
+</Project>

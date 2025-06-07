@@ -1,0 +1,15 @@
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Available Movies";
+}
+
+<div class="movie-list">
+    @foreach (var movie in Model.AvailableMovies)
+    {
+        <div class="movie-item">
+            <h3>@movie.Title</h3>
+            <!-- Movie details and purchase button -->
+        </div>
+    }
+</div>
+

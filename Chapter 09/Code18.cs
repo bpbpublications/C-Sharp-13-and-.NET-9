@@ -1,0 +1,1 @@
+services.AddDbContext<MyContext>(options => options.UseOracle(Configuration.GetConnectionString("DefaultConnection")));

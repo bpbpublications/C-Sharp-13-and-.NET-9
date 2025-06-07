@@ -1,0 +1,57 @@
+@page "/products"
+@model ProductsModel
+
+<h2>Product List</h2>
+
+@if (Model.Products.Any())
+{
+    <ul>
+        @foreach (var product in Model.Products)
+        {
+            <li>@product.Name - @product.Price</li>
+        }
+    </ul>
+}
+else
+{
+    <p>No products available.</p>
+}
+
+<form method="post">
+    <input type="submit" value="Reload Products" />
+</form>
+
+@code {
+    public class ProductsModel
+    {
+        public List<Product> Products { get; set; } = new List<Product>();
+
+        public void OnGet()
+        {
+            // Load products initially
+            LoadProducts();
+        }
+
+        public void OnPost()
+        {
+            // Reload products on form submission
+            LoadProducts();
+        }
+
+        private void LoadProducts()
+        {
+            // Simulate loading products
+            Products = new List<Product>
+            {
+                new Product { Name = "Product 1", Price = 10.0 },
+                new Product { Name = "Product 2", Price = 20.0 }
+            };
+        }
+    }
+
+    public class Product
+    {
+        public string Name { get; set; }
+        public double Price { get; set; }
+    }
+}

@@ -1,0 +1,17 @@
+@page
+@model RecentPurchasesModel
+
+<h2>Recent Purchases</h2>
+<!-- Other content -->
+
+@if (UserIsFinancialOperator())
+{
+    <!-- Include Partial for Billing Address -->
+    @Html.Partial("_BillingAddressPartial", Model.Purchases)
+}
+
+@if (UserIsCustomerSuccessOperator())
+{
+    <!-- Include Partial for Delivery Address -->
+    @Html.Partial("_DeliveryAddressPartial", Model.Purchases)
+}

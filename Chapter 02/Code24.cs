@@ -1,0 +1,1 @@
+byte[] byteArray = BitConverter.GetBytes(123);

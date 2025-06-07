@@ -1,0 +1,3 @@
+global using ProductionApplication.CustomerManagement;
+global using ProductionApplication.AccountManagement;
+global using ProductionApplication.ProductStock;

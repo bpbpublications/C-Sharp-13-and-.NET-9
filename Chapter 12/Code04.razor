@@ -1,0 +1,10 @@
+@page
+@model MyRazorPagesApp.Pages.ContactModel
+
+<form method="post">
+    <label asp-for="Name"></label><br />
+    <input asp-for="Name" /><br /><br />
+    <label asp-for="Message"></label><br />
+    <textarea asp-for="Message"></textarea><br /><br />
+    <button type="submit">Submit</button>
+</form>

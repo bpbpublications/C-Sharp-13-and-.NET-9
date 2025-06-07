@@ -1,0 +1,15 @@
+@page "/client-side-example"
+@rendermode InteractiveWebAssembly
+
+<h3>Interactive CSR Example</h3>
+<button @onclick="UpdateMessage">Click Me</button>
+<p>@message</p>
+
+@code {
+    private string message = "Initial message";
+
+    private void UpdateMessage()
+    {
+        message = "Updated on the client!";
+    }
+}

@@ -1,0 +1,1 @@
+dotnet new razor - n MyRazorPagesApp

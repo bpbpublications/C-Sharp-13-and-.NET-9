@@ -1,0 +1,90 @@
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+@{
+    ViewData["Title"] = "Emergency Room";
+}
+
+@model EmergencyModel
+<form id="emergencyForm" asp-action="Emergency" asp-controller="Home" method="post">
+    <!-- Name input -->
+    <label for="name">Name:</label><br />
+    <input asp-for="Name" type="text" id="name" class="form-control" /><br />
+    <span asp-validation-for="Name" class="text-danger"></span><br />
+    
+    <!-- Last Name input -->
+    <label for="lastName">Last Name:</label><br />
+    <input asp-for="LastName" type="text" id="lastName" class="form-control" /><br />
+    <span asp-validation-for="LastName" class="text-danger"></span><br />
+    
+    <!-- Address input -->
+    <label for="address">Address:</label><br />
+    <input asp-for="Address" type="text" id="address" class="form-control" /><br />
+    <span asp-validation-for="Address" class="text-danger"></span><br />
+    
+    <!-- City input -->
+    <label for="city">City:</label><br />
+    <input asp-for="City" type="text" id="city" class="form-control" /><br />
+    <span asp-validation-for="City" class="text-danger"></span><br />
+    
+    <!-- Profession input -->
+    <label for="profession">Profession:</label><br />
+    <input asp-for="Profession" type="text" id="profession" class="form-control" /><br />
+    <span asp-validation-for="Profession" class="text-danger"></span><br />
+    
+    <!-- Date of Birth input -->
+    <label for="dob">Date of Birth:</label><br />
+    <input asp-for="DateOfBirth" type="date" id="dob" class="form-control" /><br />
+    <span asp-validation-for="DateOfBirth" class="text-danger"></span><br />
+    <span class="alert alert-danger col-md-4" id="dobMessage"></span>
+    
+    <!-- Guardian Information section -->
+    <div id="guardianInfo" style="display:none;">
+        <!-- Guardian Name input -->
+        <label for="guardianName">Guardian Name:</label><br />
+        <input asp-for="GuardianName" type="text" id="guardianName" class="form-control" /><br />
+        <span asp-validation-for="GuardianName" class="text-danger"></span><br />
+        
+        <!-- Guardian Phone Number input -->
+        <label for="guardianPhone">Guardian Phone Number:</label><br />
+        <input asp-for="GuardianPhoneNumber" type="tel" id="guardianPhone" class="form-control" /><br />
+        <span asp-validation-for="GuardianPhoneNumber" class="text-danger"></span><br /><br />
+    </div>
+    
+    <!-- Submit button -->
+    <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<script>
+$(document).ready(function() {
+    // Hide the Date of Birth error message and turn off the Submit button
+    $('#dobMessage').hide();
+    $('#submit').prop('disabled', true);
+
+    // Event handler for Date of Birth input change
+    $('#dob').change(function() {
+        var dob = new Date($(this).val());
+        var today = new Date();
+        var age = today.getFullYear() - dob.getFullYear();
+
+        // Hide the Date of Birth error message and enable the Submit button
+        $('#dobMessage').hide();
+        $('#submit').prop('disabled', false);
+
+        // Validate the Date of Birth
+        if (dob > today || dob < new Date('1900-01-01')) {
+            $('#dobMessage').text('Invalid Date of Birth').show();
+            $('#submit').prop('disabled', true);
+        } else if (age < 18) {
+            // Show the Guardian Information section and make the Guardian Name and Guardian Phone Number inputs required
+            $('#guardianInfo').show();
+            $('#guardianName').prop('required', true);
+            $('#guardianPhone').prop('required', true);
+        } else {
+            // Hide the Guardian Information section
+            $('#guardianInfo').hide();
+            // Remove the required attribute from the Guardian Name and Guardian Phone Number inputs
+            $('#guardianName').removeProp('required');
+            $('#guardianPhone').removeProp('required');
+        }
+    });
+});
+</script>

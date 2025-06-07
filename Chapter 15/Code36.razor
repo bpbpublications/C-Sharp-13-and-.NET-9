@@ -1,0 +1,23 @@
+@page "/yourPage"
+@inject ApplicationDbContext dbContext
+
+<h3>Your Data:</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Property1</th>
+            <th>Property2</th>
+            <!-- Add more columns as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var entity in dbContext.YourEntities.ToList())
+        {
+            <tr>
+                <td>@entity.Property1</td>
+                <td>@entity.Property2</td>
+                <!-- Add more columns as needed -->
+            </tr>
+        }
+    </tbody>
+</table>
